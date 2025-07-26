@@ -52,13 +52,13 @@ public class LevelGenerator : EditorWindow
             return;
         }
 
-        gridTile = new GameObject[gridWidth,gridWidth];
+        gridTile = new GameObject[gridWidth, gridWidth];
         for (int x = 0; x < gridWidth; x++)
         {
             for (int z = 0; z < gridLength; z++)
             {
                 Vector3 position = new Vector3(x, 0, z);
-                gridTile[x,z] =(GameObject) PrefabUtility.InstantiatePrefab(tilePrefab, gridParent);
+                gridTile[x, z] = (GameObject)PrefabUtility.InstantiatePrefab(tilePrefab, gridParent);
                 gridTile[x, z].transform.position = position;
                 Debug.Log(position);
             }
@@ -72,7 +72,7 @@ public class LevelGenerator : EditorWindow
         {
             for (int z = 0; z < gridLength; z++)
             {
-                
+
                 DestroyImmediate(gridTile[x, z]);
             }
         }
