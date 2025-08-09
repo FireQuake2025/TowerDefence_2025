@@ -103,5 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeTime: 3
   target: {fileID: 0}
-  damage: 10
+  health: {fileID: 0}
+  damage: 20
   speed: 5
