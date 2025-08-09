@@ -641,6 +641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-spawn-end-round (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1738254127466770973, guid: 32a46b64733cdb24190e4de6a3c4fa67, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -884,7 +888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 136578284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -987,6 +991,10 @@ PrefabInstance:
     - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
       propertyPath: m_Name
       value: tile-corner-round (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1972,6 +1980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2165,6 +2177,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2577,6 +2593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2704,6 +2724,10 @@ PrefabInstance:
     - target: {fileID: 1738254127466770973, guid: 32a46b64733cdb24190e4de6a3c4fa67, type: 3}
       propertyPath: m_Name
       value: tile-spawn-end-round
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738254127466770973, guid: 32a46b64733cdb24190e4de6a3c4fa67, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2990,6 +3014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower-round-build-e
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 133e5c6e3e303cc49b1bb45f5dae2df6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3051,6 +3079,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3527,6 +3559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-corner-round (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3655,6 +3691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3716,6 +3756,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3947,6 +3991,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4669,7 +4717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOverScreen: {fileID: 1589808778}
   health: {fileID: 1820705172}
-  player: {fileID: 0}
+  player: {fileID: 1820705165}
   LevelRestart: Level2
   NextLevel: Level3
 --- !u!114 &763393353
@@ -5810,6 +5858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6693,7 +6745,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
   m_UseGeometry: 1
   m_DefaultArea: 0
   m_GenerateLinks: 1
@@ -6704,7 +6756,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.083333336
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 609f7e230c08a6f4d885a8707da6a4a6, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 879a03a621fec854ea73d8a2cc84700e, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1064525666
 Transform:
@@ -7557,6 +7609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8315,6 +8371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-corner-round (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8376,6 +8436,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8540,6 +8604,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8867,6 +8935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9151,6 +9223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9344,6 +9420,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10056,6 +10136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-corner-round
       objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10262,6 +10346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10455,6 +10543,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10715,6 +10807,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11695,6 +11791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-corner-round (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11822,6 +11922,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12017,6 +12121,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12682,6 +12790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12876,6 +12988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-corner-round (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1989975011243115107, guid: 2b27746fa0ce67046a9b5897a39a5946, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12937,6 +13053,10 @@ PrefabInstance:
     - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
       propertyPath: m_Name
       value: tile-straight (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 869024774905954451, guid: 3399e85ddac4b0f4ba7190c4f369cf65, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
