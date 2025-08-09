@@ -5,20 +5,25 @@ using UnityEngine;
 public abstract class Tower : MonoBehaviour
 {
     public float FireCoolDown = 1;
+    public int TowerCost;
+    private TowerPlacementManager placementManager;
 
     protected float currentFireCoolDown = 0;
     protected List<Enemy> enemiesInRange = new List<Enemy>();
 
-    
 
     protected virtual void Update()
     {
         currentFireCoolDown -= Time.deltaTime;
         Enemy enemy = GetTargetEnemy();
-            if(enemy != null && currentFireCoolDown <= 0)
+        placementManager = FindAnyObjectByType<TowerPlacementManager>();
+        if (enemy != null && currentFireCoolDown <= 0)
         {
-            FireAt(enemy);
-            currentFireCoolDown = FireCoolDown; 
+            if (!placementManager.isPlacingTower)
+            {
+                FireAt(enemy);
+                currentFireCoolDown = FireCoolDown;
+            }
         }
     }
     protected void ClearDestroyedEnemies()
@@ -33,7 +38,7 @@ public abstract class Tower : MonoBehaviour
     }
 
     protected abstract Enemy GetTargetEnemy();
-  
+
     protected abstract void FireAt(Enemy target);
 
     private void OnTriggerEnter(Collider other)

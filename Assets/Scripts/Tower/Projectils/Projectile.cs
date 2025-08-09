@@ -3,17 +3,20 @@ using UnityEngine;
 public abstract class Projectile : MonoBehaviour
 {
     [SerializeField] private float lifeTime = 3;
+
     public Transform target;
+    public Health health;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Destroy(gameObject,lifeTime);
+        Destroy(gameObject, lifeTime);
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
-        if(target != null)
+        if (target != null)
         {
             ProjectilePath();
         }
@@ -31,5 +34,7 @@ public abstract class Projectile : MonoBehaviour
     }
 
     protected abstract void OnTriggerEnter(Collider other);
-    
+
+
+
 }

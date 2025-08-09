@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 
     public event Action<int, int> OnHealthChange;
     public int currentHealth;
+
     [SerializeField] private int maxHealth = 20;
 
     private void Awake()
@@ -25,6 +26,6 @@ public class Health : MonoBehaviour
             currentHealth = Mathf.Max(currentHealth - damageAmount, 0);
             OnHealthChange?.Invoke(currentHealth, maxHealth);
         }
-        Debug.Log($"Current Health: {currentHealth}");
+        
     }
 }

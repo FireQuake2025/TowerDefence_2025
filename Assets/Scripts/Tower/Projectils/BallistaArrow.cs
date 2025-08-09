@@ -1,16 +1,20 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 
 public class BallistaArrow : Projectile
 {
-    [SerializeField] private int damage = 10;
-    [SerializeField] private float speed = 10;
+    public int damage;
+    public float speed = 10;
 
-    
+    private GoldManagment goldManagment;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        goldManagment = GameObject.FindAnyObjectByType<GoldManagment>();
     }
 
     // Update is called once per frame
@@ -30,10 +34,17 @@ public class BallistaArrow : Projectile
     {
         if (other.transform == target)
         {
+            Health health = other.GetComponent<Health>();
             Enemy enemy = other.GetComponent<Enemy>();
             if (enemy != null)
             {
-                Destroy(enemy.gameObject);
+                health.TakeDamage(damage);
+                if(health.currentHealth <= 0)
+                {
+                    goldManagment.GetComponent<GoldManagment>().DropGold();
+                    Destroy(enemy.gameObject);
+
+                }
             }
             Destroy(gameObject);
         }
