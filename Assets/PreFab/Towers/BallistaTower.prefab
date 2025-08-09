@@ -218,8 +218,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 45879863276050050, guid: db5b758ace886564486a601838ed9aa5, type: 3}
   towerUpgradeCost: 0
   ballista: {fileID: 7020276232188308272}
-  bullet: {fileID: 45879863276050050, guid: db5b758ace886564486a601838ed9aa5, type: 3}
   UpgradedTower: {fileID: 3181662670238522777}
+  bullet: {fileID: 45879863276050050, guid: db5b758ace886564486a601838ed9aa5, type: 3}
 --- !u!54 &4103814664088242413
 Rigidbody:
   m_ObjectHideFlags: 0

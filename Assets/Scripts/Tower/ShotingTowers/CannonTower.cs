@@ -8,8 +8,9 @@ public class CannonTower : Tower
     private CannonBall cannonBall;
     private GoldManagment goldManagment;
 
-    public GameObject bolder;
-    public Transform cannon;
+    public GameObject Upgrade;
+    public GameObject Bolder;
+    public Transform Cannon;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,9 +26,10 @@ public class CannonTower : Tower
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             goldManagment = FindAnyObjectByType<GoldManagment>();
-            cannonBall = bolder.GetComponent<CannonBall>();
+            cannonBall = Bolder.GetComponent<CannonBall>();
             if(goldManagment.currentGold <= towerUpgradeCost)
             {
+                Upgrade.SetActive(true);
                 goldManagment.currentGold -= towerUpgradeCost;
                 cannonBall.explosionRadius = 10;
                 cannonBall.damage = 50;
@@ -40,7 +42,7 @@ public class CannonTower : Tower
     {
         if (projectilePrefab != null)
         {
-            GameObject projectileInstance = Instantiate(projectilePrefab, cannon.transform.position, Quaternion.identity);
+            GameObject projectileInstance = Instantiate(projectilePrefab, Cannon.transform.position, Quaternion.identity);
             projectileInstance.GetComponent<Projectile>().SetTarget(target.transform);
         }
     }
