@@ -48,4 +48,10 @@ public class OptionsMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
 }
