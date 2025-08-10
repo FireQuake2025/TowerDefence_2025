@@ -5935,6 +5935,8 @@ MonoBehaviour:
       TimeBeforeSpawn: 2
       SpawnPoint: {fileID: 240691360}
       EndPoint: {fileID: 1146531645}
+  - TimeBeforeWave: 5
+    enemyData: []
   LevelWin: {fileID: 207560555}
   levelWinText: {fileID: 1774470354}
 --- !u!114 &1041701652

@@ -11425,6 +11425,32 @@ MonoBehaviour:
       TimeBeforeSpawn: 1
       SpawnPoint: {fileID: 64050872}
       EndPoint: {fileID: 400994779}
+  - TimeBeforeWave: 5
+    enemyData:
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 359544653}
+      EndPoint: {fileID: 400994779}
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 64050872}
+      EndPoint: {fileID: 400994779}
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 359544653}
+      EndPoint: {fileID: 400994779}
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 64050872}
+      EndPoint: {fileID: 400994779}
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 359544653}
+      EndPoint: {fileID: 400994779}
+    - EnemyToSpawn: {fileID: 1869743551524565520, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
+      TimeBeforeSpawn: 1
+      SpawnPoint: {fileID: 64050872}
+      EndPoint: {fileID: 400994779}
   LevelWin: {fileID: 1662767774}
   levelWinText: {fileID: 1149758395}
 --- !u!114 &1820705171
