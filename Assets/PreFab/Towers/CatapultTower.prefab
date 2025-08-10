@@ -287,7 +287,7 @@ MonoBehaviour:
   FireCoolDown: 1
   TowerCost: 50
   projectilePrefab: {fileID: 4511999203756016047, guid: 30917fac1a0dbf443b75550e28c480c0, type: 3}
-  towerUpgradeCost: 0
+  towerUpgradeCost: 200
   Upgrade: {fileID: 1210883908906199191}
   Bolder: {fileID: 4511999203756016047, guid: 30917fac1a0dbf443b75550e28c480c0, type: 3}
   Cannon: {fileID: 3305812241225668456}

@@ -216,7 +216,7 @@ MonoBehaviour:
   FireCoolDown: 3
   TowerCost: 30
   projectilePrefab: {fileID: 45879863276050050, guid: db5b758ace886564486a601838ed9aa5, type: 3}
-  towerUpgradeCost: 0
+  towerUpgradeCost: 150
   ballista: {fileID: 7020276232188308272}
   UpgradedTower: {fileID: 3181662670238522777}
   bullet: {fileID: 45879863276050050, guid: db5b758ace886564486a601838ed9aa5, type: 3}

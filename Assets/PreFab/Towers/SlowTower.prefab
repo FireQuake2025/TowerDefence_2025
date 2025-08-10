@@ -118,6 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FireCoolDown: 1
   TowerCost: 10
+  towerUpgradeCost: 50
   upgradeTower: {fileID: 8204323021819335038}
 --- !u!54 &-5603006428197634394
 Rigidbody:

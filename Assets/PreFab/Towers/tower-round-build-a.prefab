@@ -223,11 +223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FireCoolDown: 0.5
   TowerCost: 15
-  Weapon: {fileID: 1674546848620358977}
   projectilePrefab: {fileID: 5680497414205419001, guid: 95b4d8dfaa9209446a00d4e72f171032, type: 3}
+  towerUpgradeCost: 100
   ballista: {fileID: 108236541434547647}
-  bullet: {fileID: 5680497414205419001, guid: 95b4d8dfaa9209446a00d4e72f171032, type: 3}
   UpgradedTower: {fileID: 7003253527402997934}
+  bullet: {fileID: 5680497414205419001, guid: 95b4d8dfaa9209446a00d4e72f171032, type: 3}
 --- !u!54 &4322466626312986040
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -95,7 +95,7 @@ MonoBehaviour:
   lifeTime: 1
   target: {fileID: 1349243111271999658, guid: 54740d8760f6d824e8e24a04ce24e884, type: 3}
   health: {fileID: 0}
-  damage: 5
+  damage: 10
   speed: 15
 --- !u!135 &-87568566002844856
 SphereCollider:
