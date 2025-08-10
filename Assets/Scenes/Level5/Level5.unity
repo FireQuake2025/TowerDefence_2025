@@ -11485,6 +11485,12 @@ MonoBehaviour:
       TimeBeforeSpawn: 2
       SpawnPoint: {fileID: 1988961258}
       EndPoint: {fileID: 599872652}
+  - TimeBeforeWave: 10
+    enemyData:
+    - EnemyToSpawn: {fileID: 7845775062237864422, guid: a50602c16ef0d654d96a6617bc1ed8ad, type: 3}
+      TimeBeforeSpawn: 2
+      SpawnPoint: {fileID: 1988961258}
+      EndPoint: {fileID: 599872652}
   LevelWin: {fileID: 498823681}
   levelWinText: {fileID: 1942677669}
 --- !u!114 &1820705171
