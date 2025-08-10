@@ -45,7 +45,6 @@ public class WaveManager : MonoBehaviour
 
     IEnumerator StartWave()
     {
-        Enemy enemy = FindAnyObjectByType<Enemy>();
         Health health = GetComponent<Health>();
         foreach (WaveData waveData in LevelWaveData)
         {
@@ -57,23 +56,20 @@ public class WaveManager : MonoBehaviour
                 SpawnEnemy(currentEnemy.EnemyToSpawn, currentEnemy.SpawnPoint, currentEnemy.EndPoint);
             }
         }
-        if (!enemy)
-        {
-            LevelWin.SetActive(true);
-            Time.timeScale = 0f;
+        LevelWin.SetActive(true);
+        Time.timeScale = 0f;
 
-            if (health.currentHealth == 100)
-            {
-                levelWinText.text = "Perfect";
-            }
-            else if (health.currentHealth <= 100)
-            {
-                levelWinText.text = "You Win";
-            }
-            else if (health.currentHealth <= 20)
-            {
-                levelWinText.text = "You Barely Suvived";
-            }
+        if (health.currentHealth == 100)
+        {
+            levelWinText.text = "Perfect";
+        }
+        else if (health.currentHealth <= 100)
+        {
+            levelWinText.text = "You Win";
+        }
+        else if (health.currentHealth <= 20)
+        {
+            levelWinText.text = "You Barely Suvived";
         }
     }
 
